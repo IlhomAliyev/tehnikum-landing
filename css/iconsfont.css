@@ -1,0 +1,339 @@
+@font-face {
+  font-family: 'Flags-UZB-KAZ-RUS';
+  src:  url('./../fonts/Flags-UZB-KAZ-RUS.eot?26db23');
+  src:  url('./../fonts/Flags-UZB-KAZ-RUS.eot?26db23#iefix') format('embedded-opentype'),
+    url('./../fonts/Flags-UZB-KAZ-RUS.ttf?26db23') format('truetype'),
+    url('./../fonts/Flags-UZB-KAZ-RUS.woff?26db23') format('woff'),
+    url('./../fonts/Flags-UZB-KAZ-RUS.svg?26db23#Flags-UZB-KAZ-RUS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Flags-UZB-KAZ-RUS' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flag-of-Uzbekistan .path1:before {
+  content: "\e92d";
+  color: rgb(30, 181, 58);
+}
+.icon-flag-of-Uzbekistan .path2:before {
+  content: "\e92e";
+  margin-left: -2em;
+  color: rgb(0, 153, 181);
+}
+.icon-flag-of-Uzbekistan .path3:before {
+  content: "\e92f";
+  margin-left: -2em;
+  color: rgb(206, 17, 38);
+}
+.icon-flag-of-Uzbekistan .path4:before {
+  content: "\e930";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path5:before {
+  content: "\e931";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path6:before {
+  content: "\e932";
+  margin-left: -2em;
+  color: rgb(0, 153, 181);
+}
+.icon-flag-of-Uzbekistan .path7:before {
+  content: "\e933";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path8:before {
+  content: "\e934";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path9:before {
+  content: "\e935";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path10:before {
+  content: "\e936";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path11:before {
+  content: "\e937";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path12:before {
+  content: "\e938";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path13:before {
+  content: "\e939";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path14:before {
+  content: "\e93a";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path15:before {
+  content: "\e93b";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path16:before {
+  content: "\e93c";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path17:before {
+  content: "\e93d";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Uzbekistan .path18:before {
+  content: "\e93e";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Kazakhstan .path1:before {
+  content: "\e900";
+  color: rgb(0, 171, 194);
+}
+.icon-flag-of-Kazakhstan .path2:before {
+  content: "\e901";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path3:before {
+  content: "\e902";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path4:before {
+  content: "\e903";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path5:before {
+  content: "\e904";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path6:before {
+  content: "\e905";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path7:before {
+  content: "\e906";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path8:before {
+  content: "\e907";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path9:before {
+  content: "\e908";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path10:before {
+  content: "\e909";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path11:before {
+  content: "\e90a";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path12:before {
+  content: "\e90b";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path13:before {
+  content: "\e90c";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path14:before {
+  content: "\e90d";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path15:before {
+  content: "\e90e";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path16:before {
+  content: "\e90f";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path17:before {
+  content: "\e910";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path18:before {
+  content: "\e911";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path19:before {
+  content: "\e912";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path20:before {
+  content: "\e913";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path21:before {
+  content: "\e914";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path22:before {
+  content: "\e915";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path23:before {
+  content: "\e916";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path24:before {
+  content: "\e917";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path25:before {
+  content: "\e918";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path26:before {
+  content: "\e919";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path27:before {
+  content: "\e91a";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path28:before {
+  content: "\e91b";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path29:before {
+  content: "\e91c";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path30:before {
+  content: "\e91d";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path31:before {
+  content: "\e91e";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path32:before {
+  content: "\e91f";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path33:before {
+  content: "\e920";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path34:before {
+  content: "\e921";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path35:before {
+  content: "\e922";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path36:before {
+  content: "\e923";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path37:before {
+  content: "\e924";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path38:before {
+  content: "\e925";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path39:before {
+  content: "\e926";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path40:before {
+  content: "\e927";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path41:before {
+  content: "\e928";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Kazakhstan .path42:before {
+  content: "\e929";
+  margin-left: -2em;
+  color: rgb(255, 236, 45);
+}
+.icon-flag-of-Russia .path1:before {
+  content: "\e92a";
+  color: rgb(255, 255, 255);
+}
+.icon-flag-of-Russia .path2:before {
+  content: "\e92b";
+  margin-left: -1.5em;
+  color: rgb(213, 43, 30);
+}
+.icon-flag-of-Russia .path3:before {
+  content: "\e92c";
+  margin-left: -1.5em;
+  color: rgb(0, 57, 166);
+}

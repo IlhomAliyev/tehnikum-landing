@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="icon"
+      href="./img/editable-ilhom-aliyev-logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./css/iconsfont.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Landing (ready). Aliyev Ilhom</title>
+  </head>
+
+  <body>
+    <!-- !=========================MAIN-WRAPPER========================= -->
+    <div class="main-wrapper">
+      <!-- ?================"START PAGE"-PAGE (FLEXBOX)================= -->
+      <div class="start-page">
+        <header>
+          <a href="https://qna.habr.com/q/1139804" target="_blank">
+            <img
+              src="./img/tehnikum-coding-logo.svg"
+              alt="Tehnikum Coding Logo"
+            />
+          </a>
+        </header>
+        <div class="course-data-box">
+          <div class="course-data-info">
+            <div class="course-data-info__item">
+              <p class="thin-text">старт</p>
+              <p class="bold-text">1 декабря</p>
+            </div>
+            <div class="course-data-info__item">
+              <p class="thin-text">длительность</p>
+              <p class="bold-text">2 месяца | 24 занятия</p>
+            </div>
+          </div>
+          <h1>HTML, CSS, JS</h1>
+        </div>
+        <div class="description">
+          <p class="description-text">
+            Верстальщик – это специалист, который кодит страницы web-сайтов,
+            разбивает текст на отдельные страницы,компонует его с иллюстрациями.
+            Он умеет создавать HTML-шаблоны для веб-сайтов и писать HTML-код,
+            знает,как графически оформить страницу и правильнорасположить на ней
+            элемент, и знаком со стилями
+          </p>
+        </div>
+        <div class="buttons-wrapper">
+          <button class="button primary">Получить программу курса</button>
+          <button class="button subscribe-button">Записаться на курс</button>
+        </div>
+      </div>
+      <!-- ?================"START PAGE"-PAGE (FLEXBOX)================= -->
+
+      <!-- ?================"FOR-WHOM"-PAGE (FLEXBOX)================= -->
+      <div class="for-whom">
+        <h2>Этот курс для тебя, если ты...</h2>
+        <div class="student-info-wrapper student-info-wrapper-1">
+          <div class="student-info student-info-1">
+            <img src="./img/backend-dev.png" alt="Backend Developer" />
+            <h3>Backend разработчик</h3>
+            <p>
+              Если ты уже владеешь навыками Backend разработки, то изучив HTML,
+              CSS, JavaScript получишь базу, чтобы начать изучение frontend и
+              встать на путь full-stack разработчика
+            </p>
+          </div>
+          <div class="student-info student-info-2">
+            <img src="./img/student.png" alt="Student" />
+            <h3>Студент</h3>
+            <p>
+              Профессия Веб-Верстальщика это отличная возможность для того,
+              чтобы построить карьеру в сфере IT. В конце курса у тебя уже будет
+              портфолио для трудоустройства
+            </p>
+          </div>
+        </div>
+        <div class="student-info-wrapper student-info-wrapper-2">
+          <div class="student-info student-info-3">
+            <img src="./img/junior-dev.png" alt="Junior Developer" />
+            <h3>Начинающий программист</h3>
+            <p>
+              Тем, кто уже начал осваивать HTML и CSS, но хочет получить
+              структурированные знания и конструктивный фидбек
+            </p>
+          </div>
+          <div class="student-info student-info-4">
+            <img src="./img/new-prof-girl.png" alt="New Profession" />
+            <h3>Хочешь обучиться новой профессии</h3>
+            <p>
+              Веб-Верстальщик является одной из самых перспективных профессий на
+              сегодняшний день. Это идеальный старт для того чтобы начать
+              карьеру frontend разработчика.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ?================"FOR-WHOM"-PAGE (FLEXBOX)================= -->
+    </div>
+    <!-- !=========================MAIN-WRAPPER========================= -->
+
+    <!-- !=================MAIN-WRAPPER-WITHOUT-MARGIN================= -->
+    <div class="main-wrapper-without-margin">
+      <!-- ?=====================TIMER-PAGE====================== -->
+      <div class="timer-page">
+        <h4>10% скидка действует</h4>
+        <div class="timer-flexbox">
+          <div class="timer__elem timer__elem_day">
+            <div class="timer__value js-days">00</div>
+            <div class="timer__value_description">дней</div>
+          </div>
+          <div class="timer__elem timer__elem_hour">
+            <div class="timer__value js-hours">00</div>
+            <div class="timer__value_description">часов</div>
+          </div>
+          <div class="timer__elem timer__elem_minute">
+            <div class="timer__value js-minutes">00</div>
+            <div class="timer__value_description">минут</div>
+          </div>
+          <!-- <div class="timer__elem timer__elem_second">
+                    <div class="timer__value js-seconds">00</div>
+                    <div class="timer__value_description">секунд</div>
+                </div> -->
+        </div>
+        <button class="button-discount">Воспользоваться скидкой</button>
+      </div>
+      <!-- ?=====================TIMER-PAGE====================== -->
+    </div>
+    <!-- !=================MAIN-WRAPPER-WITHOUT-MARGIN================= -->
+
+    <!-- !=========================MAIN-WRAPPER========================= -->
+    <div class="main-wrapper">
+      <!-- ?=====================TEACHER-PAGE====================== -->
+      <div class="teacher-page">
+        <h2>А кто преподает?</h2>
+        <div class="teacher-box">
+          <div class="teacher-photo">
+            <img src="./img/Yuriy-Maksimovich.png" alt="Юрий Максимович" />
+          </div>
+          <div class="teacher-info">
+            <h4 class="teacher__name">Юрий Каграманян</h4>
+            <p>
+              Практикующий преподаватель с опытом работы в сфере веб
+              программирования
+            </p>
+            <div class="skills skills-1">
+              <div class="skill">
+                <img src="./img/cool-smile.svg" alt="Cool Smile" />
+                <p class="small">Руководитель TEHNIKUM.CODING</p>
+              </div>
+              <div class="skill">
+                <img src="./img/winning-cup-icon.svg" alt="Winning Cup" />
+                <p class="small">Призер международных олимпиад</p>
+              </div>
+            </div>
+            <div class="skills skills-2">
+              <div class="skill">
+                <img src="./img/case-icon.svg" alt="Case Icon" />
+                <p class="small">
+                  Работал с компаниями Hi-Tech Bank, UGGI, 1C-Bitrix
+                </p>
+              </div>
+              <div class="skill">
+                <img src="./img/keyboard-icon.svg" alt="Keyboard Icon" />
+                <p class="small">Более 10 лет опыта в программировании</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ?=====================TEACHER-PAGE====================== -->
+
+      <!-- ?=====================LAYOUT-DESIGNER (GRID)====================== -->
+      <div class="layout-designer-page">
+        <h2>За 2 месяца ты станешь полноценным верстальщиком</h2>
+        <div class="layout-designer-grid-wrapper">
+          <div class="grid-box grid-box-1">
+            <h3>— Обучаем с нуля</h3>
+            <p>
+              Начнешь с самых основ и будешь двигаться от простого к сложному,
+              закрепляя каждый урок практикой
+            </p>
+          </div>
+          <div class="grid-box grid-box-2">
+            <h3>— Помогаем лучшим студентам с трудоустройством</h3>
+            <p>
+              Лучших студентов мы рекомендуем в ведущие веб-студии Узбекистана
+            </p>
+          </div>
+          <div class="grid-box grid-box-3">
+            <h3>— 70% практики</h3>
+            <p>
+              Большая часть курса проходит в режиме live-коддинга, что позволяет
+              сразу применить знания на практике и сформировать портфолио
+            </p>
+          </div>
+          <div class="grid-box grid-box-4">
+            <h3>— Доводим до результата</h3>
+            <p>
+              В рамках курса за твоими успехами будут следить тьюторы, которые
+              ответят на любые возникающие вопросы и помогут усвоить материал
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ?=====================LAYOUT-DESIGNER (GRID)====================== -->
+
+      <!-- ?=====================COURSE-PROGRAM-PAGE====================== -->
+      <div class="course-program">
+        <div class="text-wrapper">
+          <img src="./img/course-program-corner.svg" alt="" />
+          <h2>Программа курса</h2>
+          <div class="course-lessons">
+            <p class="small">
+              Урок №1: Знакомство с html, css, js и разница между ними
+            </p>
+            <p class="small">Урок №2: Виды сайтов и первые термины</p>
+            <p class="small">
+              Урок №3: CSS - базовые стили и их подключение. Палитра
+            </p>
+            <p class="small">Урок №4: HTML [Таблицы]</p>
+            <p class="small">Урок №5: HTML [Формы]</p>
+            <p class="small">Урок №6: CSS [Intermediate]</p>
+          </div>
+          <div class="button-wrapper_desktop">
+            <button class="button primary">Получить программу курса</button>
+          </div>
+        </div>
+        <div class="button-wrapper_mobile">
+          <button class="button primary">Получить программу курса</button>
+        </div>
+      </div>
+      <!-- ?=====================COURSE-PROGRAM-PAGE====================== -->
+
+      <!-- ?=====================DIPLOMA-PAGE====================== -->
+      <div class="diploma-page-wrapper">
+        <div class="diploma-image">
+          <img src="./img/diploma-image.png" alt="Diploma Image" />
+        </div>
+        <h2>диплом об окончании курса</h2>
+        <p>
+          Он дополнит твое портфолио и выгодно выделит тебя на собеседовании в
+          компанию мечты
+        </p>
+      </div>
+      <!-- ?=====================DIPLOMA-PAGE====================== -->
+
+      <!-- ?=====================SALARY-PAGE====================== -->
+      <div class="salary-page-wrapper">
+        <h2>Сколько может зарабатывать Веб-Верстальщик?</h2>
+        <p>
+          По данным сайта hh.uz большие компании готовы платить начинающим
+          Верстальщикам от 300$. Тебе лишь нужно набираться опыта и твой доход
+          будет расти с каждым разом . А мы готовы тебе помочь в этом!
+        </p>
+        <img src="./img/vacancies-image.png" alt="Vacancies Image" />
+      </div>
+      <!-- ?=====================SALARY-PAGE====================== -->
+
+      <!-- ?=====================GIFTS-PAGE====================== -->
+      <div class="gifts-page-wrapper">
+        <h2>Кроме этого тебя ждут:</h2>
+        <div class="gifts-flex-wrapper">
+          <img src="./img/gifts-image.png" alt="Gifts Image" />
+          <div class="gifts__text">
+            <p>150$ от наших партнёров</p>
+            <p>
+              Компьютер для каждого студента со всеми необходимыми программами
+            </p>
+            <p>
+              Набор студента - приветственное письмо с ссылкой на закрытую
+              группу, канцелярские принадлежности, стикеры и партнерские
+              промо-коды
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ?=====================GIFTS-PAGE====================== -->
+
+      <!-- ?=====================FEEDBACK-PAGE====================== -->
+      <div class="feedback-page">
+        <h2>Отзывы наших студентов</h2>
+        <div class="feedbacks-swiper">
+          <div class="feedbacks-swiper__wrapper swiper-wrapper">
+            <div class="feedbacks-swiper__slide swiper-slide">
+              <div class="student-reason-box">
+                <img
+                  class="youtube-icon"
+                  src="./img/youtube-icon.svg"
+                  alt="Youtube Icon"
+                />
+                <p class="student-reason__text">
+                  Я пришел в Техникум чтобы сменить профессию на front-end
+                  разработчика и окончательно расстаться с предыдущим местом
+                  работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё
+                  получится!
+                </p>
+              </div>
+              <div class="feedback-box__student-wrapper">
+                <img
+                  class="student-image"
+                  src="./img/student-box-student-1.png"
+                  alt="Student Photo"
+                />
+                <p class="student-wrapper__student-name">Руслан Мухутдинов</p>
+              </div>
+            </div>
+            <div class="feedbacks-swiper__slide swiper-slide">
+              <div class="student-reason-box">
+                <img
+                  class="youtube-icon"
+                  src="./img/youtube-icon.svg"
+                  alt="Youtube Icon"
+                />
+                <p class="student-reason__text">
+                  Я выбрал курс веб-верстальщика, потому что мне это нравится и
+                  это круто. После окончания курса, за хорошую учебу, меня
+                  пригласили на стажировку в Техникум. Будущее за IT и я не
+                  жалею что выбрал эту сферу!
+                </p>
+              </div>
+              <div class="feedback-box__student-wrapper">
+                <img
+                  class="student-image"
+                  src="./img/student-box-student-2.jpg"
+                  alt="Student Photo"
+                />
+                <p class="student-wrapper__student-name">Юлдашев Искандер</p>
+              </div>
+            </div>
+            <div class="feedbacks-swiper__slide swiper-slide">
+              <div class="student-reason-box">
+                <img
+                  class="youtube-icon"
+                  src="./img/youtube-icon.svg"
+                  alt="Youtube Icon"
+                />
+                <p class="student-reason__text">
+                  Я увидел что Техникум всех приглашает на бесплатную лекцию по
+                  программированию. Меня это заинтересовало, после лекции я
+                  понял, что это хороший старт для карьеры. После курса я
+                  планирую дальше развиваться и двигаться вперед в этой сфере.
+                </p>
+              </div>
+              <div class="feedback-box__student-wrapper">
+                <img
+                  class="student-image"
+                  src="./img/student-box-student-3.jpg"
+                  alt="Student Photo"
+                />
+                <p class="student-wrapper__student-name">Махмудов Джахонгир</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ?=====================FEEDBACK-PAGE====================== -->
+    </div>
+    <!-- !=========================MAIN-WRAPPER========================= -->
+
+    <!-- !=================MAIN-WRAPPER-WITHOUT-MARGIN================= -->
+    <div class="main-wrapper-without-margin">
+      <!-- ?=====================TIMER-PAGE====================== -->
+      <div class="timer-page">
+        <h4>10% скидка действует</h4>
+        <div class="timer-flexbox">
+          <div class="timer__elem timer__elem_day">
+            <div class="timer__value js-days">00</div>
+            <div class="timer__value_description">дней</div>
+          </div>
+          <div class="timer__elem timer__elem_hour">
+            <div class="timer__value js-hours">00</div>
+            <div class="timer__value_description">часов</div>
+          </div>
+          <div class="timer__elem timer__elem_minute">
+            <div class="timer__value js-minutes">00</div>
+            <div class="timer__value_description">минут</div>
+          </div>
+          <!-- <div class="timer__elem timer__elem_second">
+                    <div class="timer__value js-seconds">00</div>
+                    <div class="timer__value_description">секунд</div>
+                </div> -->
+        </div>
+        <button class="button-discount">Воспользоваться скидкой</button>
+      </div>
+      <!-- ?=====================TIMER-PAGE====================== -->
+    </div>
+    <!-- !=================MAIN-WRAPPER-WITHOUT-MARGIN================= -->
+
+    <!-- !=========================MAIN-WRAPPER========================= -->
+    <div class="main-wrapper">
+      <!-- ?=====================ABOUT-US====================== -->
+      <div class="about-us">
+        <h2 class="about-us-header">Немного о нас</h2>
+        <div class="about-us__flex-wrapper">
+          <div class="about-us__flex-wrapper_left">
+            <img src="./img/winning-cup-icon.svg" alt="Winning Cup Icon" />
+            <p class="main-p">
+              Резиденты IT-парка и одна из самых успешных DIGITAL-школ в
+              Узбекистане
+            </p>
+          </div>
+          <div class="about-us__flex-wrapper_right">
+            <h2 class="achievements">> 2500</h2>
+            <p class="small">выпускников</p>
+            <h2 class="achievements">10 направлений</h2>
+            <p class="small">обучения в сфере Digital</p>
+          </div>
+        </div>
+      </div>
+      <!-- ?=====================ABOUT-US====================== -->
+      <!-- ?=====================DOUBTS-PAGE====================== -->
+      <div class="doubts-wrapper">
+        <h2>Все еще сомневаешься?</h2>
+        <p>
+          Тогда последний козырь: после каждого выпуска мы устраиваем крутые
+          вечеринки в честь вручения дипломов!
+        </p>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-gallery__slide swiper-slide">
+              <img src="./img/slider-image-1.png" alt="" />
+            </div>
+            <div class="swiper-gallery__slide swiper-slide">
+              <img src="./img/slider-image-2.png" alt="" />
+            </div>
+            <div class="swiper-gallery__slide swiper-slide">
+              <img src="./img/slider-image-3.png" alt="" />
+            </div>
+            <div class="swiper-gallery__slide swiper-slide">
+              <img src="./img/slider-image-4.png" alt="" />
+            </div>
+            <div class="swiper-gallery__slide swiper-slide">
+              <img src="./img/slider-image-5.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- ?=====================DOUBTS-PAGE====================== -->
+    </div>
+    <!-- !=========================MAIN-WRAPPER======================== -->
+    <!-- !=================MAIN-WRAPPER-WITHOUT-MARGIN================= -->
+    <div class="main-wrapper-without-margin">
+      <!-- ?=====================REGISTRATION-PAGE====================== -->
+      <div class="registration-page">
+        <div class="registration-page_left">
+          <h2>запишись на курс прямо сейчас!</h2>
+          <div class="students-skills">
+            <img src="./img/keyboard-icon.svg" alt="" />
+            <p>HTML, CSS, JS</p>
+          </div>
+          <div class="students-skills">
+            <img src="./img/game-icon.svg" alt="" />
+            <p>Разработка онлайн игр</p>
+          </div>
+          <div class="students-skills">
+            <img src="./img/database-icon.svg" alt="" />
+            <p>Введение в Bootstrap и Github</p>
+          </div>
+        </div>
+        <div class="registration-page_right">
+          <div class="discount">10%</div>
+          <h5>оставь заявку</h5>
+          <p class="small">начало обучения: 1 декабря</p>
+          <form class="registration-form" action="post">
+            <div class="input-wrapper">
+              <input type="text" name="name" required />
+              <div class="input-placeholder">Имя</div>
+            </div>
+            <div class="input-wrapper">
+              <input type="text" name="surname" required />
+              <div class="input-placeholder">Фамилия</div>
+            </div>
+            <div class="input-wrapper">
+              <input type="tel" name="surname" required />
+              <div class="input-placeholder">
+                <img src="./img/uzb-flag.svg" alt="UZB" />
+                <span>+998</span> (__) ___ __ __
+              </div>
+            </div>
+            <button type="submit" class="button primary">
+              Записаться на курс
+            </button>
+          </form>
+          <p class="comments main-comment">Остались вопросы?</p>
+          <p class="comments">
+            Звони: +998 33 135 33 55 Наши консультанты доступны каждый день с
+            10:00 до 22:00
+          </p>
+        </div>
+      </div>
+      <!-- ?=====================REGISTRATION-PAGE====================== -->
+    </div>
+    <!-- !=================MAIN-WRAPPER-WITHOUT-MARGIN================= -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
